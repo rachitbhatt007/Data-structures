@@ -7,3 +7,8 @@ for i in n:
 for key in d:
     print(key,end="")
     print(d[key],end='')
+
+
+
+
+
