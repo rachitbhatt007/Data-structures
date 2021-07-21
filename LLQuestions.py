@@ -67,8 +67,8 @@ class Linklist:
             self.head=prev
             self.display()
                      
-    def mergesort(self):
-        pass
+
+
 
     def findmid(self):
         slow=self.head
@@ -78,8 +78,8 @@ class Linklist:
             if(fast.next):
                 fast=fast.next
                 slow=slow.next
-        mid=slow.data
-        print("\n",mid) 
+        mid=slow
+        return mid
 
 
     def sortremduplicate(self):
@@ -132,6 +132,14 @@ class Linklist:
             prev=t   
             t=t.next   
         self.display()  
+
+    def mergell(l1,l2):
+        if(l1==None):
+            return l2
+        elif(l2==None):
+            return l1
+        else:
+            pass         
 
 
           
